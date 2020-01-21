@@ -19,10 +19,24 @@ $faqs = [
     ]
 ];
 
-foreach ($faqs as $value) {
-    echo '<h2>'.$value['domanda'].'</h2>';
-    echo $value['risposta'];
-    echo '<br><br>';
-}
-
  ?>
+ <!DOCTYPE html>
+ <html lang="it" dir="ltr">
+     <head>
+         <meta charset="utf-8">
+         <title>Google FAQs</title>
+         <link rel="stylesheet" href="style.css">
+     </head>
+     <body>
+
+        <header> </header>
+
+        <div class="display">
+            <?php foreach ($faqs as $value) { ?>
+                <h2><?php echo $value['domanda'] ?></h2>
+                <p><?php echo $value['risposta'] ?></p>
+                <?php } ?>
+        </div>
+
+     </body>
+ </html>
