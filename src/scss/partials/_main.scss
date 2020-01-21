@@ -1,14 +1,21 @@
 main {
     padding-top: 98px;
-}
 
-h2 {
-    color: $h2_color;
-    font-size: 24px;
-    line-height: 32px;
-    padding: 64px 0 0 0;
-}
+    h2 {
+        color: $h2_color;
+        font-size: 24px;
+        line-height: 32px;
+        padding: 64px 0 0 0;
+    }
 
-p {
-    margin-bottom: 30px;
+    p {
+        letter-spacing: .2px;
+        line-height: 24px;
+        padding-top: 20px;
+        margin: 10px 0;
+    }
+
+    .container {
+        padding: 30px 0;
+    }
 }

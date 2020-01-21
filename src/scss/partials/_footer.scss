@@ -18,6 +18,12 @@ footer .container {
     }
 }
 
-footer li {
-    margin: 0 5px;
+footer i {
+    color: #3030da;
+    margin-right: 5px;
+}
+
+footer li:not(:first-child):before {
+    content: "\0000b7";
+    padding: 0 5px;
 }
