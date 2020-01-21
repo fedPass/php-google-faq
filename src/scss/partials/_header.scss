@@ -1,0 +1,26 @@
+header {
+    height: 98px;
+    background: $header_bc_col;
+    border-bottom: 1px solid rgba(151,151,151,0.5);
+    padding: 24px 24px 0 24px;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 100;
+}
+
+header li {
+    margin: 0 10px;
+}
+
+.nav-bar {
+    display: flex;
+
+    ul {
+        width: 90%;
+    }
+
+    a {
+        float: right;
+    }
+}

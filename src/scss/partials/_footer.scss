@@ -1,0 +1,23 @@
+footer {
+    background-color: #f5f5f5;
+    border-top: 1px solid #eee;
+    font-size: 11px;
+    line-height: 2.19;
+    padding: 10px 15px 10px 15px;
+}
+
+footer .container {
+    display: flex;
+
+    .footer-left {
+        width: 90%;
+    }
+
+    .footer-right {
+        float: right;
+    }
+}
+
+footer li {
+    margin: 0 5px;
+}
